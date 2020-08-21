@@ -1,0 +1,13 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace O365.Support.Services.Models
+{
+    public class DocumentLibrary
+    {
+        public string SiteCollectionURL { get; set; }
+        public string LibraryName { get; set; }
+    }
+}
